@@ -6,3 +6,7 @@
     --secondary-color: #91DDCF;
     --font:"Nunito",sans-serif;
 }
+
+body {
+    background-color: var(--bg-color);
+}
