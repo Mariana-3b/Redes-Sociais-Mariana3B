@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
 
 :root{
-    --bg-color:#FFE1FF;
-    --primary-color: #E4B1F0;
-    --secondary-color: #7E60BF;
+    --bg-color:#E4B1F0;
+    --primary-color: #7E60BF;
+    --secondary-color: #433878;
     --font:"Nunito",sans-serif;
 }
 
