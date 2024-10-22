@@ -3,5 +3,10 @@ const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-g
 console.log(url);
 async function vizualizarInformaçoesGlobais() {
     const res = await fetch(url)
+    const dados = await res.jason()
+    console. log (dados)
+    
     
 }
+
+vizualizarInformaçoesGlobais()
