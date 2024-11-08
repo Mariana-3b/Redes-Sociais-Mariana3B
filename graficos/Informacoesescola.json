@@ -1,7 +1,7 @@
 {
-    total_de_alunos:""
-    conectados_youtube:""
-    conectados_instagram:""
-    conectados_whatsapp:""
-    tempo_total_conectados:"" 
+    "total_de_alunos":
+    "conectados_youtube":
+    "conectados_instagram"
+    "conectados_whatsapp"
+    "tempo_total_conectados" 
 }
