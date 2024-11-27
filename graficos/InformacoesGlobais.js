@@ -3,16 +3,16 @@ const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-g
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
-    
-    
+    // código omitido
+const pessoasConectadas = (dados.total_pessoas_conectadas / 1e9)
+const pessoasNoMundo = (dados.total_pessoas_mundo / 1e9)
 
+const paragrafo = document.createElement('p')
+paragrafo.classList.add('graficos-container__texto')
+paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${dados.tempo_medio}</span> horas conectadas em alguma rede social?.`
 
-    const paragrafo = document.createElement('p')
-    paragrafo.classList.add('graficos-container__texto')
+// código omitido
 
-    
-    paragrafo.innerHTML = `Sabia que no mundo tem <span>${dados.total_pessoas_mundo}</span> de pessoas e aproximadamente <span>${dados.total_pessoas_conectadas}</span> pessoas passam em média <span>${dados.tempo_medio}</span> horas conectadas em alguma rede social?.`
-    
    
 
     const container = document.getElementById('graficos-container')
