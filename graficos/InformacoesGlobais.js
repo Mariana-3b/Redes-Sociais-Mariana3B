@@ -6,10 +6,12 @@ async function vizualizarInformacoesGlobais() {
     // código omitido
 const pessoasConectadas = (dados.total_pessoas_conectadas / 1e9)
 const pessoasNoMundo = (dados.total_pessoas_mundo / 1e9)
+const horas = parseInt(dados.tempo_medio)
+const minutos = (dados.tempo_medio - horas) * 100
 
 const paragrafo = document.createElement('p')
 paragrafo.classList.add('graficos-container__texto')
-paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${dados.tempo_medio}</span> horas conectadas em alguma rede social?.`
+paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${horas} horas</span> e ${minutos} minutos conectadas em alguma rede social?.`
 
 // código omitido
 
