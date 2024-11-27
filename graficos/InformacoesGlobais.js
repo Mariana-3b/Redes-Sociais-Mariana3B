@@ -11,7 +11,7 @@ async function vizualizarInformacoesGlobais() {
     paragrafo.classList.add('graficos-container__texto')
 
     
-    paragrafo.innerHTML = `Sabia que no mundo tem <span>${dados.total_pessoas_mundo}</span> de pessoas e aproximadamente <span>${dados.total_pessoas_conectadas}</span> de pessoas passam em média <span>${dados.tempo_medio}</span> horas conectadas em alguma rede social?.`
+    paragrafo.innerHTML = `Sabia que no mundo tem <span>${dados.total_pessoas_mundo}</span> de pessoas e aproximadamente <span>${dados.total_pessoas_conectadas}</span> pessoas passam em média <span>${dados.tempo_medio}</span> horas conectadas em alguma rede social?.`
     
    
 
