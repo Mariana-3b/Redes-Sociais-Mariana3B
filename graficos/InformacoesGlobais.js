@@ -12,7 +12,7 @@ const porcentagemConectada = ((pessoasConectadas / pessoasNoMundo) * 100).toFixe
 
 const paragrafo = document.createElement('p')
 paragrafo.classList.add('graficos-container__texto')
-paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${horas} horas</span> e <span>${minutos} minutos</span> conectadas em alguma rede social? <br>Isso significa aproximadamente <span>${porcentagemConectada}%</span> de pessoas estão conectadas no mundo todo.`
+paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${horas} horas</span> e <span>${minutos} minutos</span> conectadas em alguma rede social? <br>Isso significa aproximadamente <span>${porcentagemConectada}%</span> de pessoas conectadas no mundo todo.`
 
 // código omitido
 
