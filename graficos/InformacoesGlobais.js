@@ -11,7 +11,7 @@ const minutos = Math.round((dados.tempo_medio - horas) * 100)
 
 const paragrafo = document.createElement('p')
 paragrafo.classList.add('graficos-container__texto')
-paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${horas} horas</span> e <span>${minutos} minutos</span> conectadas em alguma rede social?.`
+paragrafo.innerHTML = `Sabia que no mundo tem <span>${pessoasNoMundo} bilhões</span> de pessoas e aproximadamente <span>${pessoasConectadas} bilhões</span> passam em média <span>${horas} horas</span> e <span>${minutos} minutos</span> conectadas em alguma rede social?`
 
 // código omitido
 
