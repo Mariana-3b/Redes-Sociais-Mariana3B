@@ -1,7 +1,7 @@
 import { getCSS, tickConfig } from "./common.js"
 
 async function visualizarDadosEscola() {
-    const url = 'https://raw.githubusercontent.com/lefarage/Redes-sociais_farage2/refs/heads/main/graficos/informacoesalunos.json'
+    const url = 'https://raw.githubusercontent.com/Mariana-3b/Redes-Sociais-Mariana3B/refs/heads/main/graficos/informacoesalunos.json'
 
     try {
         const res = await fetch(url)
