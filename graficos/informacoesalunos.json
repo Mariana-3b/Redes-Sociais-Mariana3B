@@ -1,4 +1,5 @@
 {
+    {
     "totalalunos": 144,
     "conectados_youtube": 22,
     "conectados_facebook": 7,
@@ -9,6 +10,6 @@
         "youtube": 22,
         "facebook": 7,
         "TikTok": 39,
-        "Instagram": 73
+        "Instagram": 73}   
     }
 }
